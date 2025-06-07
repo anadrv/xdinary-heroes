@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&family=Inconsolata:wght@200..900&display=swap');
+
 body {
   background-color: black;
   width: 70%;
@@ -158,4 +160,51 @@ body {
   grid-column: 6 / span 7;
 }
 
+/*ODE*/
 
+.ode-01 {
+  grid-row: 2 / span 4;
+  background: url(/images/ode-01.png);
+  object-fit: cover;
+}
+
+.images.ode-01:hover {
+  grid-column: 1 / span 7;
+
+}
+
+.ode-02 {
+  grid-column: 8 / span 1;
+  background: url(/images/ode-02.png);
+  object-fit: cover;
+}
+
+.images.ode-02:hover {
+  grid-column: 2 / span 7;
+}
+
+.ode-03 {
+  grid-column: 9 / span 1;
+  background: url(/images/ode-03.png);
+  object-fit: cover;
+}
+
+.images.ode-03:hover {
+  grid-column: 3 / span 7;
+}
+
+.name {
+  color: white;
+  grid-column: 12 / 13;
+  font-size: 1.2rem;
+}
+
+.text {
+  color: white;
+  font-size: 1.2rem;
+  grid-column: 11 / 13;
+  grid-row: 2;
+  text-align: right;
+  font-family: "Afacad", sans-serif;
+
+}
