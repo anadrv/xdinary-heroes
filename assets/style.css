@@ -1,9 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&family=Inconsolata:wght@200..900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Special+Elite&display=swap');
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
 body {
   background-color: black;
   width: 70%;
   margin: 0 auto;
+  font-family: "Afacad", sans-serif;
 }
 
 .container {
@@ -196,15 +204,18 @@ body {
 .name {
   color: white;
   grid-column: 12 / 13;
-  font-size: 1.2rem;
+  grid-row: 2;
+  font-size: 1.3rem;
+  font-family: "Special Elite", system-ui;
 }
 
 .text {
   color: white;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   grid-column: 11 / 13;
-  grid-row: 2;
+  grid-row: 2 / span 4; 
   text-align: right;
-  font-family: "Afacad", sans-serif;
+  display: flex;
+  align-items: flex-end; 
 
 }
