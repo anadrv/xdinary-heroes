@@ -226,7 +226,7 @@ body {
 
 .jungsu-01 {
   grid-row: 2 / span 4;
-  background: url(/images/ode-01.png);
+  background: url(/images/Jungsu-4.png);
   object-fit: cover;
 }
 
@@ -237,7 +237,7 @@ body {
 
 .jungsu-02 {
   grid-column: 8 / span 1;
-  background: url(/images/ode-02.png);
+  background: url(/images/Jungsu-3.png);
   object-fit: cover;
 }
 
@@ -247,7 +247,7 @@ body {
 
 .jungsu-03 {
   grid-column: 9 / span 1;
-  background: url(/images/ode-03.png);
+  background: url(/images/Jungsu-2.png);
   object-fit: cover;
 }
 
